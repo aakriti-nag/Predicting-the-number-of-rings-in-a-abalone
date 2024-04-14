@@ -52,4 +52,5 @@ The RMSLE is Root Mean Squared Logarithmic Error, which is calculated as: sqrt(1
 log is the natural logarithm.
 
 And the best features was found to be: 
+
 ![image](https://github.com/aakriti-nag/Predicting-the-number-of-rings-in-a-abalone/assets/166777298/e852e556-3909-43d9-8da6-eede44cef499)
