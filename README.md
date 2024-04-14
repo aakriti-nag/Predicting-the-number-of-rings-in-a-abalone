@@ -31,4 +31,10 @@ Sex is the only categorical column
 The target variable 'Rings' from the train dataset has values ranging from 1 to 29. 
 ![image](https://github.com/aakriti-nag/Predicting-the-number-of-rings-in-a-abalone/assets/166777298/3e790969-4775-427a-b094-9ae6b0fd7772)
 
+Considering, sex was the only categorical column, it was converted to numeric using LabelEncoder(), thus Female - 0, Infant - 1, Male-2.
+
+For scaling, and understanding the distribution of the data, performed both outlier detection and log transofrmation. Outlier detection was chosen instead cause performing, log transformation and later calculation RMSLE affected the values, and got the best values when removed the outlieers. 
+
+
+
 
