@@ -33,7 +33,7 @@ The target variable 'Rings' from the train dataset has values ranging from 1 to 
 
 Considering, sex was the only categorical column, it was converted to numeric using LabelEncoder(), thus Female - 0, Infant - 1, Male-2.
 
-For scaling, and understanding the distribution of the data, performed both outlier detection and log transofrmation. Outlier detection was chosen instead cause performing, log transformation and later calculation RMSLE affected the values, and got the best values when removed the outliers. 
+For scaling, and understanding the distribution of the data, performed both outlier detection and log transofrmation. Outlier detection was chosen instead cause performing, log transformation and later calculation RMSLE affected the values, and got the best values when removed the outliers with log transformation. 
 ![image](https://github.com/aakriti-nag/Predicting-the-number-of-rings-in-a-abalone/assets/166777298/4ec8b833-951c-46d9-8e55-14da84233771)
 
 Performed multple regression methods to best the best values for RMSLE with, 
