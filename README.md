@@ -39,7 +39,7 @@ For scaling, and understanding the distribution of the data, performed both outl
 Performed multple regression methods to best the best values for RMSLE with, 
 1. Linear regresssion
 2. Decision Tree Regression
-3. XGBoost
+3. XGBoost Regressor
 4. Random Forest Regressor
 
 XGBoost performed best, and after performing hyperparameter tuning with L1, L2 reguralization, and cross validation, and also trying with GridSearchCV the best parameters were chosen to perform the final XGBoost model, and resulting the RMSLE value of 0.14, concluded the prediction. 
@@ -51,6 +51,8 @@ where:
 log is the natural logarithm.
 
 And the best features was found to be : 
+![image](https://github.com/aakriti-nag/Predicting-the-number-of-rings-in-a-abalone/assets/166777298/e852e556-3909-43d9-8da6-eede44cef499)
+
 
 
 
