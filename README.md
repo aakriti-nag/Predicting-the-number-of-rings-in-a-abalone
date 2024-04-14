@@ -26,3 +26,5 @@ test.csv - the test dataset; objective is to predict the value of Rings for each
 
 From operforming the initial analysis, 
 Sex is the only categorical column, with 
+![image](https://github.com/aakriti-nag/Predicting-the-number-of-rings-in-a-abalone/assets/166777298/ac1251a7-da41-4900-b9e1-ecf8a3a3c1df)
+
