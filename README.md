@@ -43,8 +43,9 @@ Performed multple regression methods to best the best values for RMSLE with,
 4. Random Forest Regressor
 
 XGBoost performed best, and after performing hyperparameter tuning with L1, L2 reguralization, and cross validation, and also trying with GridSearchCV the best parameters were chosen to perform the final XGBoost model, and resulting the RMSLE value of 0.14, concluded the prediction. 
-The RMSLE is Root Mean Squared Logarithmic Error, which is calculated as: sqrt(1/𝑛(log(1+𝑦̂𝑖)−log(1+𝑦𝑖))^2)
-where:
+
+The RMSLE is Root Mean Squared Logarithmic Error, which is calculated as: sqrt(1/𝑛(log(1+𝑦̂𝑖)−log(1+𝑦𝑖))^2) where:
+
 𝑛 is the total number of observations in the test set,
 𝑦̂𝑖 is the predicted value of the target for instance (i),
 𝑦𝑖 is the actual value of the target for instance (i), and,
