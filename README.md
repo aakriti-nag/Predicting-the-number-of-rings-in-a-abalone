@@ -36,6 +36,22 @@ Considering, sex was the only categorical column, it was converted to numeric us
 For scaling, and understanding the distribution of the data, performed both outlier detection and log transofrmation. Outlier detection was chosen instead cause performing, log transformation and later calculation RMSLE affected the values, and got the best values when removed the outliers. 
 ![image](https://github.com/aakriti-nag/Predicting-the-number-of-rings-in-a-abalone/assets/166777298/4ec8b833-951c-46d9-8e55-14da84233771)
 
+Performed multple regression methods to best the best values for RMSLE with, 
+1. Linear regresssion
+2. Decision Tree Regression
+3. XGBoost
+4. Random Forest Regressor
+
+XGBoost performed best, and after performing hyperparameter tuning with L1, L2 reguralization, and cross validation, and also trying with GridSearchCV the best parameters were chosen to perform the final XGBoost model, and resulting the RMSLE value of 0.14, concluded the prediction. 
+The RMSLE is Root Mean Squared Logarithmic Error, which is calculated as: sqrt(1/𝑛(log(1+𝑦̂𝑖)−log(1+𝑦𝑖))^2)
+where:
+𝑛 is the total number of observations in the test set,
+𝑦̂𝑖 is the predicted value of the target for instance (i),
+𝑦𝑖 is the actual value of the target for instance (i), and,
+log is the natural logarithm.
+
+And the best features was found to be : 
+
 
 
 
